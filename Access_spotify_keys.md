@@ -6,12 +6,16 @@
 
 * Once dones, login and go to the dashboard and click on Create App.
 
-<img src="dashboard.png">
+<img src="figs/dashboard.png">
 
 * Enter all the details and click on Save.
 
-<img src="save_dashboard.png">
+<img src="figs/save_dashboard.png">
 
 * Now go to settings in the Dashboard and you will have your client and secret key there, which will help you to access the details of the playlist.
 
-<img src="basic_info.png">
+<img src="figs/settings_dashboard.png">
+
+* Click on settings.
+
+<img src="figs/basic_info.png">
