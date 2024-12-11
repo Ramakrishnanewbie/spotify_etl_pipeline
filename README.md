@@ -11,7 +11,7 @@ In this project, we will build an ETL(Extract, Transform, Load) pipeline using t
 ### About Dataset/API Used:
 This API contains information about music artist, albums and songs - [Spotify API](https://developer.spotify.com/documentation/web-api)
 
-### Services Used:
+### So, the Services that were used are:
 1. **S3 (Simple Storage Service):** Amazon S3 is a highly scalable object storage service that can store and retrieve any amount of data from anywhere on the web. It is commonly used to store and distribute large media files, data backups and static website files.
 
 2. **AWS Lambda:** AWS Lambda is a serverless computing service that lets you run your code without managing servers. You can use lambda to run code in response to events like changes in S3, DynamoDB or other AWS services.
@@ -24,12 +24,7 @@ This API contains information about music artist, albums and songs - [Spotify AP
 
 6. **Amazon Athena:** Athena is an interactive query service that makes it easy to analyze data in Amazon S3.You can use Athena to analyze data in your Glue Data Catalog or in other S3 buckets.
 
-### Install Packages:
-```
-pip install pandas
-pip install numpy
-pip install spotipy
-```
+To better undertand them ,visit AWS documntation or simply googling will help too.
 
 ### Project Execution Flow
 Extract Data From Spotify API -> Lambda Trigger (every 1 hour) -> Run Extract Code -> Store Raw Data -> Trigger Tranform Function -> Tranform Data and Load it -> Query using Athena
